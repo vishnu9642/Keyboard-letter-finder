@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard Letter Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Speak a Word to Find Its Letters on the Keyboard</h1>
+  <div id="keyboard">
+    <div class="row">
+      <button id="key-Q">Q</button>
+      <button id="key-W">W</button>
+      <button id="key-E">E</button>
+      <button id="key-R">R</button>
+      <button id="key-T">T</button>
+      <button id="key-Y">Y</button>
+      <button id="key-U">U</button>
+      <button id="key-I">I</button>
+      <button id="key-O">O</button>
+      <button id="key-P">P</button>
+    </div>
+    <div class="row">
+      <button id="key-A">A</button>
+      <button id="key-S">S</button>
+      <button id="key-D">D</button>
+      <button id="key-F">F</button>
+      <button id="key-G">G</button>
+      <button id="key-H">H</button>
+      <button id="key-J">J</button>
+      <button id="key-K">K</button>
+      <button id="key-L">L</button>
+    </div>
+    <div class="row">
+      <button id="key-Z">Z</button>
+      <button id="key-X">X</button>
+      <button id="key-C">C</button>
+      <button id="key-V">V</button>
+      <button id="key-B">B</button>
+      <button id="key-N">N</button>
+      <button id="key-M">M</button>
+    </div>
+  </div>
+  <div id="output">
+    <p>Spoken Word: <span id="spoken-word"></span></p>
+  </div>
+  <button onclick="startRecognition()">Speak</button>
+  <script src="script.js"></script>
+</body>
+</html>

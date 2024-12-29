@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #333; /* Darker border for the keyboard container */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    width: 50%; /* Set width for the keyboard */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  #keyboard button {
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 50px; /* Fixed width for uniform appearance */
+  }
+  
+  #keyboard button.highlight {
+    background-color: yellow;
+    border: 2px solid orange;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+    text-shadow: 0 0 5px rgba(255, 255, 0, 1), 0 0 10px rgba(255, 255, 0, 1);
+  }
+  
+  #output {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
